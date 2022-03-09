@@ -16,7 +16,7 @@ void localVariable() {
     int variableY = 30;
     int variableZ = variableX + variableY;
     std::cout << "Local variableX, variableY, variableZ: " << variableX
-              << "+" << variableY << "=" << variableZ << std::endl;
+              << " + " << variableY << " = " << variableZ << std::endl;
 }
 
 
@@ -27,7 +27,7 @@ void globalVariable() {
     int variableY = 30;
     int variableZ = variableX + variableY;
     std::cout << "Global variableX, variableY, variableZ: " << variableX
-              << "+" << variableY << "=" << variableZ << std::endl;
+              << " + " << variableY << " = " << variableZ << std::endl;
 }
 
 int main() {
